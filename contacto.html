@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"> <img src="imagenes/logo.png" alt="logo la plata"></a>
+        
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html">Home</a>
+                    
+                    <ul class="submenu">
+                        <li><a href="#quienes"> Quienes somos</a></li>
+                        <li><a href="#atencion">Atención ciudadanos</a></li>
+                    </ul>
+                    </li>
+                <li><a href="lugares_turisticos.html">Lugares turisticos</a>
+                    
+                        <ul class="submenu">
+                       
+                        <li><a href="lugares_turisticos.html#moreno">Plaza moreno</a></li>
+                        <li><a href="lugares_turisticos.html#catedral">La Catedral</a></li>
+                        <li><a href="lugares_turisticos.html#museo">Museo</a></li>
+                        <li><a href="lugares_turisticos.html#teatro">Teatro</a></li>
+                        <li><a href="lugares_turisticos.html#dardorocha">Dardo Rocha</a></li>
+                        <li><a href="lugares_turisticos.html#planetario">Planetario</a></li>
+                        <li><a href="lugares_turisticos.html#malvinas">Malvinas</a></li>
+                        </ul>
+                    </li>
+                <li><a href="eventos.html">Eventos</a>
+                    
+                        <ul class="submenu">
+                        <li><a href="eventos.html#aniversario" >Cumpleaños La Plata</a></li>
+                        <li><a href="eventos.html#fiesta">Fiesta del tomate</a></li>
+                        <li><a href="eventos.html#verano">Piletazo</a></li>
+                        <li><a href="eventos.html#feria">Feria del Libro</a></li>
+                        <li><a href="eventos.html#noche">Noche de museo</a></li>
+                        
+                        </ul>
+                    </li>
+                <li><a href="contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Si tenés alguna duda, consulta o te gustaria aportar algo que sepas o conocés alguna información nueva para los eventos, contactanos a través del siguiente formulario que dejamos abajo. Una vez hayas dejado tu mensaje nosotros te responderemos lo mas pronto posible. Más abajo encontrarás nuestras redes sociales. ¡Muchas gracias a todos!
+        </p>
+        <h2>Formulario de contacto</h2>
+           <form>
+                <h3>Decinos quién sos y tu mail para contactarte.</h3>
+                <label for="Nombre">Nombre</label>
+                 <input type="text" name="nombre" required placeholder="Nombre completo" id="Nombre"> 
+                 <label for="correo">Email</label>
+                <input type="email" name="correo" id="correo" required placeholder="Ingrese su Correo">
+
+                <h3>Género</h3>
+
+                 <label for="hombre">Masculino</label>
+				<input name="sexo" type="radio" value="masculino" id="hombre">
+
+				<label for="mujer">Femenino</label>
+				<input name="sexo"  type="radio" value="femenino" id="mujer">
+				
+				<label for="otro">Otro</label>
+				<input name="sexo"  type="radio" value="otro" id="otro">
+                
+                <h3> Poné la fecha de tu nacimiento y escribinos tu consulta/aporte.</h3>
+                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" autocomplete="off">
+                <textarea name="correo" id="mail" placeholder="Escribí tu consulta/aporte" required></textarea>
+                <input type="submit" value="Registrar">
+            </form>
+    </main>
+    <footer>    
+        <p class="letrafooter">Datos del autor</p>
+            <ul class="letrafooter">
+                <li>Nombre: Carolina Uguet</li>
+                <li>Materia: Maquetado y desarrollo web</li>
+                <li>Docente: Alejandro D'Addezio</li>
+            </ul>
+            <p> Este sitio es la entrega de un TP del primer cuatrimestre de la escuela Da Vinci en el año 2022</p>
+    </footer>
+    
+</body>
+</html>
